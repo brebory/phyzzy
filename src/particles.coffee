@@ -1,3 +1,4 @@
+###
 Particles
 =========
 
@@ -7,6 +8,8 @@ Implements extensible particles and emitters to generate particles in a 2D or 3D
 
 ## Prelude ##
 Require the components needed for the particle system.
+
+###
 
     { zip, box } = require './helpers'
     { DimensionError } = require './errors'
