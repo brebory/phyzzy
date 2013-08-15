@@ -1,0 +1,29 @@
+{
+  "name": "phyzzy",
+  "version": "0.0.0",
+  "description": "Coffeescript Physics Engine",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brebory/phyzzy.git"
+  },
+  "keywords": [
+    "physics",
+    "game",
+    "simulation"
+  ],
+  "author": "Brendon Roberto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brebory/phyzzy/issues"
+  },
+  "dependencies": {
+    "three": "~0.58.9"
+  }
+}
