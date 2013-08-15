@@ -1,12 +1,12 @@
-#Particles
-#=========
+# Particles
+# =========
 #
-#Particle system writen in literate coffeescript. A module of the Phyzzy physics engine.
-#Implements extensible particles and emitters to generate particles in a 2D or 3D context.
+# Particle system module of the Phyzzy physics engine.
+# Implements extensible particles and emitters to generate particles in a 2D or 3D context.
 #
 #
-## Prelude #
-#Require the components needed for the particle system.
+# ## Prelude ##
+# Require the components needed for the particle system.
 
     { zip, box } = require './helpers'
     { DimensionError } = require './errors'
